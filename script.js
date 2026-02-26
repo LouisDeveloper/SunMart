@@ -1,6 +1,6 @@
 (function() {
     const NEW_URL = 'https://allgoodtrading.co.nz';
-    const COUNTDOWN_SECONDS = 10;
+    const COUNTDOWN_SECONDS = 5;
     
     const countdownEl = document.getElementById('countdown');
     const progressCircle = document.getElementById('progress-circle');
