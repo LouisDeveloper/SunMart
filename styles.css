@@ -67,7 +67,7 @@
 body {
     background: 
         /* linear-gradient(135deg, rgba(0, 163, 224, 0.3) 0%, rgba(0, 168, 150, 0.3) 100%), */
-        url('landing_bg.png');
+        url('/landing_bg.png');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
