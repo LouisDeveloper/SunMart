@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="10;url=https://allgoodtrading.co.nz">
+    <meta name="description" content="SunMart has moved to All Good Trading. You will be redirected automatically.">
+    <title>SunMart - We've Moved to All Good Trading</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'brand-blue': '#00A3E0',
+                        'brand-blue-light': '#4FC3F7',
+                        'brand-teal': '#00A896',
+                        'brand-green': '#2ECC71',
+                        'brand-green-dark': '#27AE60',
+                        'text-dark': '#1a3a4a',
+                        'text-muted': '#4a6572',
+                    },
+                    fontFamily: {
+                        'serif': ['DM Serif Display', 'Georgia', 'serif'],
+                        'sans': ['Source Sans 3', '-apple-system', 'BlinkMacSystemFont', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="min-h-screen flex items-center justify-center font-sans">
+    
+    <div class="w-full max-w-[720px] mx-5">
+        <article class="card-accent relative overflow-hidden bg-white/65 backdrop-blur-xl border border-white/60 rounded-3xl p-12 md:p-[50px_60px] shadow-[0_8px_32px_rgba(0,163,224,0.1),0_2px_8px_rgba(0,0,0,0.04)]">
+            
+            <!-- Logo -->
+            <div class="mb-8 flex items-center gap-3">
+                <img src="logo_removebg.png" alt="All Good Trading Logo" class="h-12 w-auto">
+                <span class="text-xl font-semibold text-text-dark">All Good Trading</span>
+            </div>
+            
+            <!-- Heading -->
+            <h1 class="gradient-text font-serif text-4xl md:text-5xl lg:text-[3.5rem] font-normal mb-6 leading-tight">
+                WE'VE MOVED!
+            </h1>
+            
+            <!-- Content Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-[1.2fr_1fr] gap-8 md:gap-10 items-start">
+                
+                <!-- Message -->
+                <div class="text-lg leading-relaxed text-text-muted">
+                    <p>
+                        <strong class="text-text-dark font-semibold">Thank you for choosing SunMart!</strong> 
+                        We truly appreciate your support over the years.
+                    </p>
+                    <p class="mt-4">
+                        We're excited to announce that we are now part of 
+                        <strong class="text-text-dark font-semibold">All Good Trading</strong>. You'll find the same 
+                        great products and service at our new home.
+                    </p>
+                </div>
+                
+                <!-- Redirect Section -->
+                <div class="text-center md:text-right">
+                    <p class="text-[0.95rem] text-text-muted mb-4 italic">
+                        Redirecting automatically...
+                    </p>
+                    
+                    <!-- Countdown -->
+                    <div class="inline-flex items-center gap-2 text-brand-teal mb-5">
+                        <span>in</span>
+                        <div class="relative inline-flex items-center justify-center">
+                            <svg class="progress-ring" viewBox="0 0 42 42">
+                                <circle cx="21" cy="21" r="18" id="progress-circle"></circle>
+                            </svg>
+                            <span id="countdown" class="countdown-gradient inline-flex items-center justify-center w-9 h-9 text-white rounded-full font-semibold text-lg">10</span>
+                        </div>
+                        <span>seconds</span>
+                    </div>
+                    
+                    <!-- Button -->
+                    <div>
+                        <a href="https://allgoodtrading.co.nz" 
+                           class="btn-gradient inline-flex items-center gap-2 px-7 py-3.5 text-white no-underline rounded-full font-semibold text-base transition-all duration-300 shadow-[0_4px_15px_rgba(0,163,224,0.3)] hover:-translate-y-0.5 hover:shadow-[0_6px_20px_rgba(0,163,224,0.4)] group">
+                            Go to All Good Trading
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" 
+                                 class="w-[18px] h-[18px] transition-transform duration-300 group-hover:translate-x-1">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                            </svg>
+                        </a>
+                    </div>
+                    
+                </div>
+            </div>
+        </article>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
